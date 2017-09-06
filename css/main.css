@@ -1,0 +1,25 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+
+}
+
+ul div {
+	width: 100px;
+	height: 25px;
+	display: block;
+	background-color: yellow;
+	text-align: left;
+}
+
+li {
+	width: 80px;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	margin: auto;
+}

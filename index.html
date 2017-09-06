@@ -3,9 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>To Do List</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+	<div id="header">
+ 		<h1>Welcome to your</h1><br>
+  		<h1><span class="classy">To Do List</span></h1>
+  		<h2>Instructions</h2>
+  		<p>Insert instructions here</p>
+  	</div>
+  	<div id="listContainer">
+  		<ul id="list">
+  		</ul>
+  	</div>
+  	<div id="listController">
+  		<h3>What's next in your productive day?</h3>
+  		<form action="" id="listEditor">
+	  		<label for="newItem">Add a new task</label>
+	  		<input type="text" name="newItem" id="newItem"></input>
+	  		<button type="button" id="enterNew"></button>
+  		</form>
+  	</div>
+  		
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+<script src="js/main.js"></script> 
 </body>
 </html>
